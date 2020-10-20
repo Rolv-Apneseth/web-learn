@@ -1,0 +1,23 @@
+h3 {
+  color: blueviolet;
+}
+
+.first-title {
+  color: coral;
+}
+
+#youtube-link {
+  color: black;
+}
+
+.list-header {
+  color: green;
+}
+
+.list-one li {
+  color: greenyellow;
+}
+
+.list-one li:nth-child(3) {
+  color: burlywood;
+}
