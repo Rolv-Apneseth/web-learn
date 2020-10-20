@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 200%;
+}
+
+button {
+  margin: 10rem;
+  padding: 2rem 4rem;
+  background: none;
+  border: 0.1rem solid rgb(59, 59, 117);
+  color: white;
+  font-size: 2.4rem;
+  border-radius: 1rem;
+  background: purple;
+}
+
+.container {
+  background: lightslategray;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 20%;
+  height: 10%;
+}
+
+.box1 {
+  background: purple;
+  position: absolute;
+  top: 0%;
+  right: 5rem;
+  transform: translate(-200%, 0%);
+}
+
+.box2 {
+  background: cyan;
+  position: relative;
+  left: 3rem;
+}
+
+.box3 {
+  background: black;
+  position: sticky;
+  top: 0;
+}
