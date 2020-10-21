@@ -111,11 +111,15 @@ nav {
 
 .cover {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 20rem;
 }
 
 .cover img {
-  height: 20rem;
+  height: 100%;
   filter: drop-shadow(0 0.5rem 0.3rem black);
+  animation: drop 1.5s ease;
 }
 
 .big-circle {
@@ -142,4 +146,56 @@ nav {
   left: 15%;
   z-index: -1;
   height: 30%;
+}
+
+.laptop-select {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  right: 20%;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .presentation {
+    flex-direction: column;
+  }
+  .introduction {
+    margin-top: 5vh;
+    text-align: center;
+  }
+  .intro-text h1 {
+    font-size: 2.8rem;
+  }
+  .intro-text p {
+    font-size: 1.5rem;
+  }
+  .cta {
+    padding: 1rem 0 0 0;
+  }
+  .laptop-select {
+    bottom: 5%;
+    right: 50%;
+    width: 50%;
+    transform: translate(50%, 5%);
+  }
+  .cover-img {
+    height: 80%;
+  }
+  .small-circle,
+  .medium-circle,
+  .big-circle {
+    opacity: 0.2;
+  }
 }
