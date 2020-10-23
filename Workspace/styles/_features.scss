@@ -1,0 +1,17 @@
+.features-container {
+  background: #323232;
+}
+
+.features {
+  min-height: 90vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+  }
+}
