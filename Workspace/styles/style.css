@@ -161,6 +161,17 @@ nav .order {
 
 .features-container {
   background: #323232;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.features-container .wave {
+  position: absolute;
+  left: 0;
+  bottom: -25%;
+  width: 100%;
+  z-index: -1;
 }
 
 .features {
@@ -185,5 +196,34 @@ nav .order {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  color: black;
+}
+
+.features .cards .card {
+  background: white;
+  margin: 0 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.features .cards .card h4 {
+  margin: 3rem 0 1rem 0;
+}
+
+.features .cards .card p {
+  padding: 2rem;
+}
+
+.features .cards .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=style.css.map */
