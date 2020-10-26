@@ -11,5 +11,19 @@ html {
 body {
   color: white;
   font-family: "Montserrat", sans-serif;
-  background: #313131;
+  background: #13cf77;
+
+  .opening {
+    background: #7d91b8;
+    text-align: center;
+    padding: 5rem 0;
+    h1 {
+      font-size: 10rem;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+  }
 }
+
+@import "cards";

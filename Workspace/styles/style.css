@@ -12,6 +12,42 @@ html {
 body {
   color: white;
   font-family: "Montserrat", sans-serif;
-  background: #313131;
+  background: #13cf77;
+}
+
+body .opening {
+  background: #7d91b8;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+body .opening h1 {
+  font-size: 10rem;
+}
+
+body .opening h2 {
+  font-size: 3rem;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.cards .card {
+  padding: 2rem 0 0 0;
+  margin: auto;
+}
+
+.cards .card img {
+  width: 90vh;
 }
 /*# sourceMappingURL=style.css.map */

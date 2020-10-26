@@ -1,0 +1,14 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+  .card {
+    padding: 2rem 0 0 0;
+    margin: auto;
+    img {
+      width: 90vh;
+    }
+  }
+}
