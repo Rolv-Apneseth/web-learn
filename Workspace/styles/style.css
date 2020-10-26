@@ -53,6 +53,10 @@ a {
 
 .nav-container {
   background: #141414;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 nav {
@@ -201,7 +205,7 @@ nav .order {
 
 .features .cards .card {
   background: white;
-  margin: 0 10rem;
+  margin: 0 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -249,7 +253,7 @@ nav .order {
 }
 
 .soon h2 {
-  top: 30%;
+  top: 23%;
 }
 
 footer {
@@ -285,5 +289,64 @@ footer h1 {
   -webkit-box-flex: 3;
       -ms-flex: 3;
           flex: 3;
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+  nav #logo {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  nav ul li {
+    margin-left: 5rem;
+  }
+  .showcase {
+    -ms-grid-columns: 10% 1fr 10%;
+        grid-template-columns: 10% 1fr 10%;
+  }
+  .showcase img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .showcase img,
+  .showcase h2,
+  .showcase .info {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    text-align: center;
+  }
+  .features {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .features h2 {
+    margin-top: 5rem;
+  }
+  .features .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .features .cards .card {
+    margin: 5rem 0rem;
+  }
+  .soon {
+    overflow: hidden;
+  }
+  .soon img {
+    width: 60%;
+  }
+  .soon h2 {
+    font-size: 5rem;
+    text-align: center;
+    top: 10%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
