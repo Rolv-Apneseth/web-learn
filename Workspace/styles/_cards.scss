@@ -1,14 +1,17 @@
 .cards {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   overflow: hidden;
 
   .card {
-    padding: 2rem 0 0 0;
+    display: flex;
+    padding: 2rem 0;
+    width: 40%;
     margin: auto;
+    border: black solid 2px;
     img {
-      width: 90vh;
+      width: 90%;
+      margin: auto;
     }
   }
 }
