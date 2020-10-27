@@ -1,16 +1,19 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  overflow: hidden;
 
   .card {
     display: flex;
     padding: 2rem 0;
-    width: 40%;
-    margin: auto;
-    border: black solid 2px;
+    width: 50%;
+    background: rgb(30, 30, 30);
+    border: lightslategrey solid 0.2rem;
+    border-radius: 2rem;
+    overflow: hidden;
+
     img {
-      width: 90%;
+      height: 100%;
+      width: 95%;
       margin: auto;
     }
   }

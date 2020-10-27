@@ -11,12 +11,14 @@ html {
 body {
   color: white;
   font-family: "Montserrat", sans-serif;
-  background: #13cf77;
+  background: white;
 
   .opening {
-    background: #7d91b8;
+    background: url(../imgs/background.jpg) green;
     text-align: center;
     padding: 5rem 0;
+    border-radius: 2rem;
+    border: lightslategrey solid 0.4rem;
     h1 {
       font-size: 10rem;
     }
