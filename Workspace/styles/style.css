@@ -12,7 +12,7 @@ html {
 body {
   color: white;
   font-family: "Montserrat", sans-serif;
-  background: white;
+  background: green;
 }
 
 body .opening {
@@ -20,7 +20,6 @@ body .opening {
   text-align: center;
   padding: 5rem 0;
   border-radius: 2rem;
-  border: lightslategrey solid 0.4rem;
 }
 
 body .opening h1 {
@@ -46,7 +45,6 @@ body .opening h2 {
   padding: 2rem 0;
   width: 50%;
   background: #1e1e1e;
-  border: lightslategrey solid 0.2rem;
   border-radius: 2rem;
   overflow: hidden;
 }
@@ -55,5 +53,14 @@ body .opening h2 {
   height: 100%;
   width: 95%;
   margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 40%;
+  }
+  .cards .card {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
