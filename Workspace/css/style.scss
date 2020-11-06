@@ -31,6 +31,7 @@ html {
   align-items: center;
 
   #img {
+    max-width: 1080px;
     width: 60vw;
     border: black solid 3rem;
     border-radius: 5vw;
@@ -46,4 +47,26 @@ html {
   width: 90%;
   text-align: center;
   margin: 2vh auto;
+}
+
+#timeline {
+  //   background-color: black;
+  width: 50%;
+  margin: auto;
+  font-size: 2rem;
+
+  ul {
+    .point {
+      padding: 1rem;
+    }
+    #ending {
+      list-style: none;
+    }
+  }
+}
+
+#wiki {
+  padding-top: 3rem;
+  font-size: 2rem;
+  text-align: center;
 }

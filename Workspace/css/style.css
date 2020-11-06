@@ -40,6 +40,7 @@ html {
 }
 
 #img-div #img {
+  max-width: 1080px;
   width: 60vw;
   border: black solid 3rem;
   border-radius: 5vw;
@@ -54,5 +55,25 @@ html {
   width: 90%;
   text-align: center;
   margin: 2vh auto;
+}
+
+#timeline {
+  width: 50%;
+  margin: auto;
+  font-size: 2rem;
+}
+
+#timeline ul .point {
+  padding: 1rem;
+}
+
+#timeline ul #ending {
+  list-style: none;
+}
+
+#wiki {
+  padding-top: 3rem;
+  font-size: 2rem;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
