@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 0.5rem;
+}
+
+#main {
+  background: #cec89a;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+#title {
+  font-size: 9rem;
+  text-align: center;
+}
+
+#sub-title {
+  font-size: 5rem;
+  text-align: center;
+}
+
+#img-div {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#img {
+  width: 60vw;
+  border: black solid 3rem;
+  border-radius: 7%;
+}
+/*# sourceMappingURL=style.css.map */
