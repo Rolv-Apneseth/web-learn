@@ -21,6 +21,9 @@ html {
 }
 
 #img-div {
+  background-color: rgb(114, 111, 88);
+  padding: 2vh;
+  border-radius: 5vw;
   width: 90%;
   margin: auto;
   display: flex;
@@ -30,10 +33,17 @@ html {
   #img {
     width: 60vw;
     border: black solid 3rem;
-    border-radius: 7%;
+    border-radius: 5vw;
   }
 
   #img-caption {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
+}
+
+#tribute-info {
+  font-size: 5rem;
+  width: 90%;
+  text-align: center;
+  margin: 2vh auto;
 }

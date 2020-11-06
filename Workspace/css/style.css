@@ -22,6 +22,9 @@ html {
 }
 
 #img-div {
+  background-color: #726f58;
+  padding: 2vh;
+  border-radius: 5vw;
   width: 90%;
   margin: auto;
   display: -webkit-box;
@@ -39,10 +42,17 @@ html {
 #img-div #img {
   width: 60vw;
   border: black solid 3rem;
-  border-radius: 7%;
+  border-radius: 5vw;
 }
 
 #img-div #img-caption {
-  font-size: 1.5rem;
+  font-size: 2rem;
+}
+
+#tribute-info {
+  font-size: 5rem;
+  width: 90%;
+  text-align: center;
+  margin: 2vh auto;
 }
 /*# sourceMappingURL=style.css.map */
