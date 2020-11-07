@@ -35,6 +35,8 @@ html {
     width: 60vw;
     border: black solid 3rem;
     border-radius: 5vw;
+    position: relative;
+    display: flex;
   }
 
   #img-caption {
@@ -58,9 +60,6 @@ html {
   ul {
     .point {
       padding: 1rem;
-    }
-    #ending {
-      list-style: none;
     }
   }
 }
