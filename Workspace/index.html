@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Survey | Sample Survey</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    
+    <main>
+        <section id="intro">
+            <h1 id="title">Spectacular Sample Survey</h1>
+            <p id="description">A small, sample survey page</p>
+        </section>
+
+        <form id="survey-form" action="">
+            <div id="name-in">
+                <label class="input-labels" for="name">Name: </label>
+                <input id="name" type="text" name="name" autofocus required>
+            </div>
+            <div id="email-in">
+                <label for="email" class="input-labels">Email address: </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div id="number-in">
+                <label for="number" class="input-labels">Phone number: </label>
+                <input type="tel" id="number" name="number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                <p id="num-format"><small><small>Format: 123-456-7890</small></small></p>
+            </div>
+            
+        </form>
+
+    </main>
 </body>
+
+
 </html>
