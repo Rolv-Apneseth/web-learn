@@ -16,20 +16,29 @@
 
         <form id="survey-form" action="">
 
-            <div id="name-in">
+            <div class="inputs" id="name-in">
                 <label id="name-label" class="input-labels" for="name">Name: </label>
                 <input id="name" type="text" name="name" autofocus required placeholder="Enter your name here">
             </div>
 
-            <div id="email-in">
+            <div class="inputs" id="email-in">
                 <label id="email-label" for="email" class="input-labels">Email address: </label>
                 <input type="email" id="email" name="email" required placeholder="Enter your email here">
             </div>
 
-            <div id="number-in">
+            <div class="inputs" id="number-in">
                 <label id="number-label" for="number" class="input-labels">Phone number: </label>
                 <input type="tel" id="number" name="number" pattern="[0-9]{10}" required placeholder="Enter your number here">
                 <p id="number-format"><small>Format: 0123456789</small></p>
+            </div>
+
+            <div class="inputs" id="gender-in">
+                <label id="dropdown-label" for="dropdown">Select your gender: </label>
+                <select name="dropdown" id="dropdown">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
             </div>
             
         </form>
