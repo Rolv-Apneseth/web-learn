@@ -8,4 +8,20 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+#intro {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+#intro #title {
+  padding: 2rem;
+  font-size: 4rem;
+}
+
+#intro #description {
+  padding-bottom: 2rem;
+  font-size: 2rem;
+}
 /*# sourceMappingURL=style.css.map */

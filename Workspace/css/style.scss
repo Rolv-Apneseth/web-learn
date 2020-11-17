@@ -7,3 +7,19 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+
+#intro {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+
+  #title {
+    padding: 2rem;
+    font-size: 4rem;
+  }
+
+  #description {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+  }
+}
