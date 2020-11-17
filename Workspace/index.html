@@ -10,38 +10,54 @@
 <body>
     <main>
         <section id="intro">
+            
             <h1 id="title">Spectacular Sample Survey</h1>
             <p id="description">A small, sample survey page</p>
+
         </section>
 
         <form id="survey-form" action="">
 
             <div class="inputs" id="name-in">
+
                 <label id="name-label" class="input-labels" for="name">Name: </label>
+
                 <input id="name" type="text" name="name" autofocus required placeholder="Enter your name here">
+
             </div>
 
             <div class="inputs" id="email-in">
+
                 <label id="email-label" for="email" class="input-labels">Email address: </label>
+
                 <input type="email" id="email" name="email" required placeholder="Enter your email here">
+
             </div>
 
             <div class="inputs" id="number-in">
-                <label id="number-label" for="number" class="input-labels">Phone number: </label>
-                <input type="tel" id="number" name="number" pattern="[0-9]{10}" required placeholder="Enter your number here">
-                <p id="number-format"><small>Format: 0123456789</small></p>
+
+                <label id="number-label" for="number" class="input-labels">Years of experience: </label>
+
+                <input type="number" id="number" name="number">
+
             </div>
 
             <div class="inputs" id="developer-in">
+
                 <label id="dropdown-label" for="dropdown">What kind of developer are you: </label>
+
                 <select name="dropdown" id="dropdown">
+
                     <option value="front-end">Front-end</option>
                     <option value="back-end">Back-end</option>
                     <option value="full-stack">Full-stack</option>
+
                 </select>
+
             </div>
 
             <div class="inputs" id="gender-in">
+
                 <p id="radio-p">Select your gender: </p>
 
                 <input type="radio" class="radio" name="radios" id="male">
@@ -52,6 +68,7 @@
 
                 <input type="radio" class="radio" name="radios" id="other">
                 <label for="male" class="radio-label">Other</label>
+
             </div>
 
             <div class="inputs" id="technologies-in">
