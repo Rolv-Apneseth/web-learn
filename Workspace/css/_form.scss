@@ -5,4 +5,10 @@
   margin: auto;
   display: flex;
   flex-direction: column;
+
+  .inputs {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
 }
