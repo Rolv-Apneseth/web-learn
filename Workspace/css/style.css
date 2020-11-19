@@ -68,4 +68,9 @@ html {
 #survey-form #technologies-in label {
   font-weight: normal;
 }
+
+#survey-form #message-in textarea {
+  width: 60%;
+  font-size: 1.6rem;
+}
 /*# sourceMappingURL=style.css.map */
