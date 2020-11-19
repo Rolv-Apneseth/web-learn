@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey | Sample Survey</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+        <section id="intro">
+
+            <h1 id="title">Spectacular Sample Survey</h1>
+            <p id="description">A small, sample survey page</p>
+
+        </section>
+
+        <form id="survey-form" action="">
+
+            <div class="inputs" id="name-in">
+
+                <label id="name-label" class="input-labels" for="name">Name: </label>
+
+                <input id="name" type="text" name="name" autofocus required placeholder="Enter your name here">
+
+            </div>
+
+            <div class="inputs" id="email-in">
+
+                <label id="email-label" for="email" class="input-labels">Email address: </label>
+
+                <input type="email" id="email" name="email" required placeholder="Enter your email here">
+
+            </div>
+
+            <div class="inputs" id="number-in">
+
+                <label id="number-label" for="number" class="input-labels">Years of experience: </label>
+
+                <input type="number" id="number" name="number" min="0" max="100" placeholder="Enter number here">
+
+            </div>
+
+            <div class="inputs" id="developer-in">
+
+                <label id="dropdown-label" for="dropdown">What kind of developer are you: </label>
+
+                <select name="dropdown" id="dropdown">
+
+                    <option value="front-end">Front-end</option>
+                    <option value="back-end">Back-end</option>
+                    <option value="full-stack">Full-stack</option>
+
+                </select>
+
+            </div>
+
+            <div class="inputs" id="gender-in">
+
+                <p id="radio-p">Select your gender: </p>
+                
+                <label for="male" class="radio-label" id="male-label"><input type="radio" class="radio" name="radios" id="male" value="male"> Male</label>
+                
+                <label for="male" class="radio-label"><input type="radio" class="radio" name="radios" id="female" value="female"> Female</label>
+
+                <label for="male" class="radio-label"><input type="radio" class="radio" name="radios" id="other" value="other"> Other</label>
+
+            </div>
+
+            <div class="inputs" id="technologies-in">
+                <p id="checkbox-p">Select the technologies you use: </p>
+
+                <label for="python" class="checkbox-label"><input type="checkbox" name="python" value="python"> Python</label>
+
+                <label for="html" class="checkbox-label"><input type="checkbox" name="html" value="html"> HTML</label>
+
+                <label for="css" class="checkbox-label"><input type="checkbox" name="css" value="css"> CSS</label>
+
+                <label for="sass" class="checkbox-label"><input type="checkbox" name="sass" value="sass"> SASS</label>
+                
+                <label for="postgres" class="checkbox-label"><input type="checkbox" name="postgres" value="postgres"> Postgres</label>
+                
+                <label for="mongodb" class="checkbox-label"><input type="checkbox" name="mongodb" value="mongodb"> MongoDb</label>
+                
+            </div>
+
+            <div class="inputs" id="message-in">
+                <label id="mesasge-p" for="message">Leave a message: </label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter message here"></textarea>
+            </div>
+
+            <button id="submit">Submit</button>
+            
+            
+        </form>
+
+    </main>
+</body>
+
+
+</html>
