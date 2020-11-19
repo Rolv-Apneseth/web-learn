@@ -48,5 +48,16 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 2rem;
+}
+
+#survey-form .inputs label {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+#survey-form .inputs p {
+  font-weight: bold;
+  padding-bottom: 2rem;
 }
 /*# sourceMappingURL=style.css.map */

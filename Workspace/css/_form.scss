@@ -10,5 +10,16 @@
     font-size: 2rem;
     display: flex;
     flex-direction: column;
+    padding: 2rem;
+
+    label {
+      font-weight: bold;
+      padding-bottom: 1rem;
+    }
+
+    p {
+      font-weight: bold;
+      padding-bottom: 2rem;
+    }
   }
 }
