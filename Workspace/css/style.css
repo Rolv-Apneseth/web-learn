@@ -60,4 +60,8 @@ html {
   font-weight: bold;
   padding-bottom: 2rem;
 }
+
+#survey-form #gender-in label {
+  font-weight: normal;
+}
 /*# sourceMappingURL=style.css.map */
