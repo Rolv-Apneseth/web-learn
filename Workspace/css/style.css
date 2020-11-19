@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  background-color: #b2e034;
 }
 
 * {
@@ -27,7 +28,7 @@ html {
 
 #survey-form {
   padding: 2rem;
-  background: blue;
+  background: #7c7cd4;
   width: 70%;
   margin: auto;
   display: -webkit-box;
@@ -37,6 +38,7 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  border-radius: 2rem;
 }
 
 #survey-form .inputs {
@@ -72,5 +74,15 @@ html {
 #survey-form #message-in textarea {
   width: 60%;
   font-size: 1.6rem;
+}
+
+#survey-form button {
+  background: green;
+  border-radius: 1rem;
+  height: 3rem;
+}
+
+#survey-form button:hover {
+  background: #6ec36e;
 }
 /*# sourceMappingURL=style.css.map */

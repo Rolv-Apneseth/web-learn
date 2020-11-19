@@ -1,10 +1,11 @@
 #survey-form {
   padding: 2rem;
-  background: blue;
+  background: rgb(124, 124, 212);
   width: 70%;
   margin: auto;
   display: flex;
   flex-direction: column;
+  border-radius: 2rem;
 
   .inputs {
     font-size: 2rem;
@@ -39,6 +40,16 @@
     textarea {
       width: 60%;
       font-size: 1.6rem;
+    }
+  }
+
+  button {
+    background: green;
+    border-radius: 1rem;
+    height: 3rem;
+
+    &:hover {
+      background: rgb(110, 195, 110);
     }
   }
 }
