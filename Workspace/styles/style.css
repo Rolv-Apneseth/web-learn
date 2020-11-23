@@ -49,4 +49,9 @@ html {
   text-decoration: none;
   color: black;
 }
+
+#intro {
+  margin: auto;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
