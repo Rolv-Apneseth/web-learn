@@ -1,0 +1,22 @@
+html {
+  font-size: 62.5%;
+}
+
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#header img {
+  height: 4vh;
+}
+
+#header #nav-bar {
+  width: 20vw;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
