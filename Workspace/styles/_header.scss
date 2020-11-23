@@ -1,13 +1,33 @@
 #header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+  position: sticky;
+  top: 0;
+  background: purple;
 
   img {
-    height: 4vh;
+    height: 3vh;
+    padding-left: 1vw;
   }
 
   #nav-bar {
-    width: 20vw;
-    font-size: 2rem;
+    font-size: 1.7rem;
+
+    ul {
+      width: 100%;
+      list-style: none;
+      display: flex;
+
+      li {
+        padding: 3rem;
+
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
   }
 }
