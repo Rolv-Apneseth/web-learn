@@ -21,7 +21,7 @@ html {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background: #e46fe4;
+  background: #da5eda;
 }
 
 #header img {
@@ -85,6 +85,6 @@ html {
 }
 
 #intro form #submit {
-  background-color: #e46fe4;
+  background-color: #da5eda;
 }
 /*# sourceMappingURL=style.css.map */
