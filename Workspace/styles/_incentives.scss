@@ -1,8 +1,14 @@
 #incentives {
   width: 80%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 
-  img {
-    height: 7vh;
+  .incentive {
+    display: flex;
+
+    img {
+      height: 7vh;
+    }
   }
 }
