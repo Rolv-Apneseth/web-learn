@@ -5,6 +5,8 @@ html {
 * {
   padding: 0;
   margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #header {
@@ -89,8 +91,8 @@ html {
 }
 
 #incentives {
-  width: 80%;
-  margin: auto;
+  width: 70%;
+  margin: 4vh auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,9 +106,33 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 10vh;
 }
 
 #incentives .incentive img {
   height: 7vh;
+  margin-right: 5vw;
+}
+
+#incentives .incentive .incentives-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#incentives .incentive .incentives-text h3 {
+  font-size: 2.2rem;
+  margin-bottom: 1vh;
+}
+
+#incentives .incentive .incentives-text p {
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
