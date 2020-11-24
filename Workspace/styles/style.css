@@ -87,4 +87,13 @@ html {
 #intro form #submit {
   background-color: #da5eda;
 }
+
+#incentives {
+  width: 80%;
+  margin: auto;
+}
+
+#incentives img {
+  height: 7vh;
+}
 /*# sourceMappingURL=style.css.map */
