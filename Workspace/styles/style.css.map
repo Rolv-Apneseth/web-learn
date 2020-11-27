@@ -6,7 +6,8 @@
         "_header.scss",
         "_intro.scss",
         "_incentives.scss",
-        "_pricing.scss"
+        "_pricing.scss",
+        "_footer.scss"
     ],
     "names": [],
     "file": "style.css"
