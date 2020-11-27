@@ -99,6 +99,9 @@ html {
 
 #intro form #submit {
   background-color: #da5eda;
+  border: none;
+  padding: 0.2vh 1vh;
+  margin-top: 1vh;
 }
 
 #incentives {
