@@ -29,6 +29,18 @@
     .trombone-price {
       font-weight: bold;
       font-size: 2rem;
+      padding: 0.7vh 0;
+    }
+
+    .trombone-description {
+      font-size: 1.5rem;
+    }
+
+    .trombone-select {
+      margin: 0.5vh 0;
+      background-color: $primary-color;
+      border: none;
+      padding: 0.3vw 0.6vw;
     }
   }
 }

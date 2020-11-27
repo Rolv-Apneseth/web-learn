@@ -193,5 +193,17 @@ html {
 #pricing .card .trombone-price {
   font-weight: bold;
   font-size: 2rem;
+  padding: 0.7vh 0;
+}
+
+#pricing .card .trombone-description {
+  font-size: 1.5rem;
+}
+
+#pricing .card .trombone-select {
+  margin: 0.5vh 0;
+  background-color: #da5eda;
+  border: none;
+  padding: 0.3vw 0.6vw;
 }
 /*# sourceMappingURL=style.css.map */
