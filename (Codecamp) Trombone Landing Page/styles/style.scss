@@ -29,6 +29,18 @@ html {
   #header {
     flex-direction: column;
     height: auto;
+
+    img {
+      height: 5.5vh;
+    }
+  }
+
+  #intro {
+    form {
+      #email {
+        width: 90%;
+      }
+    }
   }
 }
 
