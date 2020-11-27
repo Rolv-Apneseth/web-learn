@@ -9,9 +9,26 @@
   .card {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border: 0.1rem solid black;
+    min-width: 21vmin;
+    min-height: 21vmin;
+    margin-bottom: 2vh;
 
     h4 {
       font-size: 1.7rem;
+      text-transform: uppercase;
+      font-weight: 400;
+      background-color: #ddd;
+      padding: 1vh 0;
+      width: 100%;
+    }
+
+    .trombone-price {
+      font-weight: bold;
+      font-size: 2rem;
     }
   }
 }

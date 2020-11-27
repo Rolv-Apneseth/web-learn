@@ -168,9 +168,30 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  border: 0.1rem solid black;
+  min-width: 21vmin;
+  min-height: 21vmin;
+  margin-bottom: 2vh;
 }
 
 #pricing .card h4 {
   font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  background-color: #ddd;
+  padding: 1vh 0;
+  width: 100%;
+}
+
+#pricing .card .trombone-price {
+  font-weight: bold;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
