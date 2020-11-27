@@ -146,4 +146,31 @@ html {
 #incentives .incentive .incentives-text p {
   font-size: 1.5rem;
 }
+
+#pricing {
+  padding-top: 7vh;
+  width: 70%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#pricing .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#pricing .card h4 {
+  font-size: 1.7rem;
+}
 /*# sourceMappingURL=style.css.map */

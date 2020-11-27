@@ -1,2 +1,17 @@
 #pricing {
+  padding-top: 7vh;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+      font-size: 1.7rem;
+    }
+  }
 }
