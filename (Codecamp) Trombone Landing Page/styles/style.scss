@@ -24,3 +24,29 @@ html {
 @import "incentives";
 @import "pricing";
 @import "footer";
+
+@media only screen and (max-width: 650px) {
+  #header {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  #header {
+    position: relative;
+
+    img {
+      height: 3vh;
+      padding: 0;
+    }
+
+    #nav-bar {
+      ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 3rem;
+      }
+    }
+  }
+}
