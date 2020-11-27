@@ -1,2 +1,28 @@
 footer {
+  width: 70%;
+  margin: auto;
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 1.2rem;
+
+  ul {
+    display: flex;
+    li {
+      list-style: none;
+      padding: 1.5vw 1.5vw 0.8vw 0;
+
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+      }
+    }
+  }
+
+  p {
+    padding: 0 1.5vw 1.5vw 0;
+  }
 }

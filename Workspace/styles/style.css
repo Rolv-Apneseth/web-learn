@@ -209,4 +209,45 @@ html {
   border: none;
   padding: 0.3vw 0.6vw;
 }
+
+footer {
+  width: 70%;
+  margin: auto;
+  background-color: #ddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.2rem;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 1.5vw 1.5vw 0.8vw 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+footer p {
+  padding: 0 1.5vw 1.5vw 0;
+}
 /*# sourceMappingURL=style.css.map */
