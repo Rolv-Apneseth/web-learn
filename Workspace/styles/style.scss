@@ -11,6 +11,13 @@ html {
   box-sizing: border-box;
 }
 
+#video {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
 @import "header";
 @import "intro";
 @import "incentives";
