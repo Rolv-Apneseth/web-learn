@@ -240,11 +240,11 @@
 
             <code>
                 // THIS WILL CAUSE AN ERROR 
-                <br>
+                <br/>
                 function f() {}; const f = 5;f() {}; const f = 5;
-                <br>
+                <br/>
                 // THIS WILL CAUSE AN ERROR ALSO
-                <br>
+                <br/>
                 function f() { const g = 5; var g; //statements }
             </code>
 
@@ -259,10 +259,71 @@
 
         <section class="main-section" id="Data_types">
             <h3>Data types</h3>
+
+            <p>
+                The latest ECMAScript standard defines seven data types:
+            </p>
+
+            <ul>
+                <li>
+                    <p>
+                        Six data types that are primitives:
+                    </p>
+                </li>
+
+                <ul>
+                    <li>
+                        <p>
+                            Boolean. true and false.
+                        </p>
+                    </li>
+
+                    <li>
+                        <p>
+                            null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <p>
+                            undefined. A top-level property whose value is undefined.
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <p>
+                            Number. 42 or 3.14159.
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <p>
+                            String. "Howdy"
+                        </p>
+                    </li>
+                    
+                    <li>
+                        <p>
+                            Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable. 
+                        </p>
+                    </li>
+                </ul>
+
+                <li>
+                    <p>
+                        and Object
+                    </p>
+                </li>
+            </ul>
+
+            <p>
+                Although these data types are a relatively small amount, they enable you to perform useful functions with your applications. Objects and functions are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform. 
+            </p>
         </section>
 
         <section class="main-section" id="if...else_statement">
             <h3>if...else statement</h3>
+
         </section>
 
         <section class="main-section" id="while_statement">
