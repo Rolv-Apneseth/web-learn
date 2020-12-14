@@ -5,7 +5,13 @@ body {
 }
 
 main {
-  margin-left: 28%;
+  margin-left: 29%;
+  margin-top: 4%;
+}
+
+main .main-section header {
+  color: black;
+  font-size: 1.8rem;
 }
 
 #navbar {

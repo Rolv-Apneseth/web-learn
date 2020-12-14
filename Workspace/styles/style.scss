@@ -3,6 +3,7 @@ $textFontSize: 1rem;
 
 $titleColour: black;
 $mainTitleFontSize: 1.8rem;
+$titleFontSize: 1.8rem;
 
 body {
   color: $textColour;
@@ -11,7 +12,15 @@ body {
 }
 
 main {
-  margin-left: 28%;
+  margin-left: 29%;
+  margin-top: 4%;
+
+  .main-section {
+    header {
+      color: $titleColour;
+      font-size: $titleFontSize;
+    }
+  }
 }
 
 @import "navbar";
