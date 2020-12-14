@@ -20,6 +20,19 @@ main {
       color: $titleColour;
       font-size: $titleFontSize;
     }
+
+    p {
+      padding-left: 1.5vw;
+    }
+
+    ul {
+      padding-left: 6vw;
+      li {
+        p {
+          padding: 0;
+        }
+      }
+    }
   }
 }
 

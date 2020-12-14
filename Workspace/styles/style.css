@@ -14,6 +14,18 @@ main .main-section header {
   font-size: 1.8rem;
 }
 
+main .main-section p {
+  padding-left: 1.5vw;
+}
+
+main .main-section ul {
+  padding-left: 6vw;
+}
+
+main .main-section ul li p {
+  padding: 0;
+}
+
 #navbar {
   width: 26%;
   position: fixed;
