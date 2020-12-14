@@ -15,7 +15,7 @@ main {
 }
 
 #navbar {
-  padding: 1vw;
+  width: 26%;
   position: fixed;
   top: 0;
   left: 0;
@@ -25,11 +25,12 @@ main {
   header {
     color: $titleColour;
     font-size: $mainTitleFontSize;
-    text-align: center;
+    padding: 1.5vh 2vw;
   }
 
   ul {
-    height: 100%;
+    padding-left: 0;
+    width: 100%;
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -38,7 +39,9 @@ main {
     overflow-x: hidden;
 
     li {
-      padding: 1.5vh 0;
+      padding: 1.1vh 2vw;
+      border-top: 0.1vw solid black;
+
       a {
         text-decoration: none;
         color: $textColour;

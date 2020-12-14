@@ -9,7 +9,7 @@ main {
 }
 
 #navbar {
-  padding: 1vw;
+  width: 26%;
   position: fixed;
   top: 0;
   left: 0;
@@ -20,11 +20,12 @@ main {
 #navbar header {
   color: black;
   font-size: 1.8rem;
-  text-align: center;
+  padding: 1.5vh 2vw;
 }
 
 #navbar ul {
-  height: 100%;
+  padding-left: 0;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,7 +40,8 @@ main {
 }
 
 #navbar ul li {
-  padding: 1.5vh 0;
+  padding: 1.1vh 2vw;
+  border-top: 0.1vw solid black;
 }
 
 #navbar ul li a {
