@@ -4,41 +4,6 @@ body {
   font-size: 1rem;
 }
 
-main {
-  margin-left: 29%;
-  margin-right: 2%;
-  margin-top: 4%;
-}
-
-main .main-section header {
-  color: black;
-  font-size: 1.8rem;
-}
-
-main .main-section code {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #f7f7f7;
-  padding: 1vh 2vw;
-  margin: 0 2.5vw;
-  word-break: normal;
-  word-wrap: normal;
-  border-radius: 1vw;
-}
-
-main .main-section p {
-  padding-left: 1.5vw;
-}
-
-main .main-section ul {
-  padding-left: 6vw;
-}
-
-main .main-section ul li p {
-  padding: 0;
-}
-
 #navbar {
   width: 26%;
   position: fixed;
@@ -79,5 +44,40 @@ main .main-section ul li p {
   text-decoration: none;
   color: #4d4e53;
   cursor: pointer;
+}
+
+main {
+  margin-left: 29%;
+  margin-right: 2%;
+  margin-top: 4%;
+}
+
+main .main-section header {
+  color: black;
+  font-size: 1.8rem;
+}
+
+main .main-section code {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f7f7f7;
+  padding: 1vh 2vw;
+  margin: 0 2.5vw;
+  word-break: normal;
+  word-wrap: normal;
+  border-radius: 1vw;
+}
+
+main .main-section p {
+  padding-left: 1.5vw;
+}
+
+main .main-section ul {
+  padding-left: 6vw;
+}
+
+main .main-section ul li p {
+  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */

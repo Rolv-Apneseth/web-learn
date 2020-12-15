@@ -13,40 +13,5 @@ body {
   font-size: $textFontSize;
 }
 
-main {
-  margin-left: 29%;
-  margin-right: 2%;
-  margin-top: 4%;
-
-  .main-section {
-    header {
-      color: $titleColour;
-      font-size: $titleFontSize;
-    }
-
-    code {
-      display: flex;
-      background-color: $codeBackground;
-      padding: 1vh 2vw;
-      margin: 0 2.5vw;
-      word-break: normal;
-      word-wrap: normal;
-      border-radius: 1vw;
-    }
-
-    p {
-      padding-left: 1.5vw;
-    }
-
-    ul {
-      padding-left: 6vw;
-      li {
-        p {
-          padding: 0;
-        }
-      }
-    }
-  }
-}
-
 @import "navbar";
+@import "main";
