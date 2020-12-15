@@ -7,6 +7,9 @@ $titleFontSize: 1.8rem;
 
 $codeBackground: #f7f7f7;
 
+$mediumTitleFontSize: 1.3rem;
+$mediumTextFontSize: 0.9rem;
+
 body {
   color: $textColour;
   line-height: 1.5;
@@ -15,3 +18,24 @@ body {
 
 @import "navbar";
 @import "main";
+
+// Responsiveness
+@media only screen and (max-width: 1000px) {
+  body {
+    font-size: $mediumTextFontSize;
+  }
+
+  #navbar {
+    header {
+      font-size: $mediumTitleFontSize;
+    }
+  }
+
+  main {
+    .main-section {
+      header {
+        font-size: $mediumTitleFontSize;
+      }
+    }
+  }
+}

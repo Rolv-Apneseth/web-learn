@@ -80,4 +80,16 @@ main .main-section ul {
 main .main-section ul li p {
   padding: 0;
 }
+
+@media only screen and (max-width: 1000px) {
+  body {
+    font-size: 0.9rem;
+  }
+  #navbar header {
+    font-size: 1.3rem;
+  }
+  main .main-section header {
+    font-size: 1.3rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
