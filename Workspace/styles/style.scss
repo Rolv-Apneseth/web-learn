@@ -5,6 +5,8 @@ $titleColour: black;
 $mainTitleFontSize: 1.8rem;
 $titleFontSize: 1.8rem;
 
+$codeBackground: #f7f7f7;
+
 body {
   color: $textColour;
   line-height: 1.5;
@@ -13,12 +15,23 @@ body {
 
 main {
   margin-left: 29%;
+  margin-right: 2%;
   margin-top: 4%;
 
   .main-section {
     header {
       color: $titleColour;
       font-size: $titleFontSize;
+    }
+
+    code {
+      display: flex;
+      background-color: $codeBackground;
+      padding: 1vh 2vw;
+      margin: 0 2.5vw;
+      word-break: normal;
+      word-wrap: normal;
+      border-radius: 1vw;
     }
 
     p {
