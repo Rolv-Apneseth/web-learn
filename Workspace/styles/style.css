@@ -11,6 +11,7 @@ body {
   left: 0;
   height: 100%;
   border-right: 0.25vw solid rgba(0, 22, 22, 0.4);
+  overflow-y: scroll;
 }
 
 #navbar header {
