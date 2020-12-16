@@ -39,3 +39,48 @@ body {
     }
   }
 }
+
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: $textFontSize;
+  }
+
+  #navbar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    position: relative;
+
+    header {
+      font-size: $titleFontSize;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      li {
+        padding: 1vh 2vw;
+      }
+    }
+  }
+
+  main {
+    width: 90%;
+    margin: auto;
+
+    .main-section {
+      margin-top: 5vh;
+
+      header {
+        font-size: $titleFontSize;
+      }
+
+      code {
+        overflow-wrap: normal;
+        min-width: fit-content;
+      }
+    }
+  }
+}

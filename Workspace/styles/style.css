@@ -93,4 +93,54 @@ main .main-section ul li p {
     font-size: 1.3rem;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 1rem;
+  }
+  #navbar {
+    width: 90%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border: none;
+    position: relative;
+  }
+  #navbar header {
+    font-size: 1.8rem;
+  }
+  #navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #navbar ul li {
+    padding: 1vh 2vw;
+  }
+  main {
+    width: 90%;
+    margin: auto;
+  }
+  main .main-section {
+    margin-top: 5vh;
+  }
+  main .main-section header {
+    font-size: 1.8rem;
+  }
+  main .main-section code {
+    overflow-wrap: normal;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+  }
+}
 /*# sourceMappingURL=style.css.map */
