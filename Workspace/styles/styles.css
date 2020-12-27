@@ -43,4 +43,9 @@ main {
   color: white;
   font-size: 1.4rem;
 }
+
+#welcome-section {
+  color: white;
+  background: linear-gradient(70deg, #3a3d40 0%, #181719 100%);
+}
 /*# sourceMappingURL=styles.css.map */

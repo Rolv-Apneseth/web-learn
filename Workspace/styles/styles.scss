@@ -3,6 +3,9 @@ $navbarHeight: 7vh;
 $navbarBackground: #be3144;
 $navbarFontSize: 1.4rem;
 
+$welcomeBackgroundOne: #3a3d40;
+$welcomeBackgroundTwo: #181719;
+
 // Base styling
 * {
   padding: 0;
@@ -16,3 +19,4 @@ main {
 
 // Imports
 @import "navbar";
+@import "welcome";
