@@ -1,5 +1,14 @@
+$navbarHeight: 7vh;
+$navbarBackground: #be3144;
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+main {
+  padding-top: $navbarHeight;
+}
+
+@import "navbar";

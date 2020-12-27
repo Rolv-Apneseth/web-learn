@@ -1,0 +1,18 @@
+#navbar {
+  width: 100%;
+  height: $navbarHeight;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: $navbarBackground;
+
+  ul {
+    width: 20%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
