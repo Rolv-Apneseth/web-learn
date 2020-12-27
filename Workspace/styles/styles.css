@@ -5,8 +5,8 @@
           box-sizing: border-box;
 }
 
-main {
-  padding-top: 7vh;
+body {
+  font-family: sans-serif;
 }
 
 #navbar {
@@ -45,7 +45,31 @@ main {
 }
 
 #welcome-section {
+  height: 100vh;
   color: white;
   background: linear-gradient(70deg, #3a3d40 0%, #181719 100%);
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#welcome-section h2 {
+  font-size: 3.5rem;
+}
+
+#welcome-section h1 {
+  margin-top: 2vh;
+  font-size: 2rem;
+  color: #be3144;
+  font-style: italic;
+  font-weight: 100;
 }
 /*# sourceMappingURL=styles.css.map */

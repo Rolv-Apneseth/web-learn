@@ -5,6 +5,8 @@ $navbarFontSize: 1.4rem;
 
 $welcomeBackgroundOne: #3a3d40;
 $welcomeBackgroundTwo: #181719;
+$welcomeH2FontSize: 3.5rem;
+$welcomeH1FontSize: 2rem;
 
 // Base styling
 * {
@@ -13,8 +15,8 @@ $welcomeBackgroundTwo: #181719;
   box-sizing: border-box;
 }
 
-main {
-  padding-top: $navbarHeight;
+body {
+  font-family: sans-serif;
 }
 
 // Imports
