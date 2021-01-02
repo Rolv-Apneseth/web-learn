@@ -6,10 +6,22 @@
   align-items: center;
   color: $textColour;
 
+  h2 {
+    font-size: $welcomeH2FontSize;
+  }
+
+  p {
+    font-size: $navbarFontSize;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 1.2vh 0;
+  }
+
   ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 2.8vh;
 
     li {
       margin-left: 1.8vw;

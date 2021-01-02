@@ -167,6 +167,17 @@ footer {
   color: #f0f0f0;
 }
 
+#contact h2 {
+  font-size: 3.5rem;
+}
+
+#contact p {
+  font-size: 1.4rem;
+  font-weight: lighter;
+  font-style: italic;
+  margin: 1.2vh 0;
+}
+
 #contact ul {
   list-style: none;
   display: -webkit-box;
@@ -174,6 +185,7 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-top: 2.8vh;
 }
 
 #contact ul li {
