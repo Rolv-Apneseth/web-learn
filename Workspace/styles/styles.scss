@@ -13,7 +13,7 @@ $welcomeH1FontSize: 2rem;
 $projectsBackground: #45567d;
 $projectH2FontSize: 2.6rem;
 
-$contactBackground: #303841;
+$footerBackground: #303841;
 
 // Base styling
 * {
@@ -24,6 +24,10 @@ $contactBackground: #303841;
 
 body {
   font-family: sans-serif;
+}
+
+footer {
+  background-color: $footerBackground;
 }
 
 // Imports
