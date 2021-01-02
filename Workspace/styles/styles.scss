@@ -13,6 +13,8 @@ $welcomeH1FontSize: 2rem;
 $projectsBackground: #45567d;
 $projectH2FontSize: 2.6rem;
 
+$contactBackground: #303841;
+
 // Base styling
 * {
   padding: 0;
@@ -28,3 +30,4 @@ body {
 @import "navbar";
 @import "welcome";
 @import "projects";
+@import "contact";
