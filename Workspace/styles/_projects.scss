@@ -1,6 +1,6 @@
 #projects {
   background: $projectsBackground;
-  height: 100vh;
+  min-height: 100vh;
   padding: 6vh 0;
   display: flex;
   flex-direction: column;
@@ -16,6 +16,7 @@
   div {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     width: 60%;
     margin: 0 auto;
 
@@ -35,13 +36,14 @@
           font-size: $navbarFontSize;
           font-weight: 100;
           text-align: center;
+          padding: 1vh 0;
         }
       }
     }
   }
 
   #show-all {
-    padding: 0 1vw;
+    padding: 0.5vmin 1vmin;
     width: fit-content;
     margin: 0 auto;
     text-align: center;

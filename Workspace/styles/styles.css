@@ -75,7 +75,7 @@ body {
 
 #projects {
   background: #45567d;
-  height: 100vh;
+  min-height: 100vh;
   padding: 6vh 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -102,6 +102,9 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   width: 60%;
   margin: 0 auto;
 }
@@ -126,10 +129,11 @@ body {
   font-size: 1.4rem;
   font-weight: 100;
   text-align: center;
+  padding: 1vh 0;
 }
 
 #projects #show-all {
-  padding: 0 1vw;
+  padding: 0.5vmin 1vmin;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
