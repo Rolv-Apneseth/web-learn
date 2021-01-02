@@ -74,27 +74,70 @@ body {
 }
 
 #projects {
+  background: #45567d;
+  height: 100vh;
+  padding: 6vh 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #f0f0f0;
+}
+
+#projects h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 2.6rem;
+}
+
+#projects div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 50%;
-  margin: auto;
+  width: 60%;
+  margin: 0 auto;
 }
 
-#projects .project-tile {
+#projects div .project-tile {
   background-color: #3a3d40;
-  width: 30rem;
+  width: 40rem;
   height: auto;
+  margin: 2vh;
 }
 
-#projects .project-tile a {
+#projects div .project-tile a {
   text-decoration: none;
-  color: white;
+  color: #f0f0f0;
 }
 
-#projects .project-tile a img {
+#projects div .project-tile a img {
   width: 100%;
+}
+
+#projects div .project-tile a h3 {
+  font-size: 1.4rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+#projects #show-all {
+  padding: 0 1vw;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 2rem;
+  background-color: #3a3d40;
 }
 /*# sourceMappingURL=styles.css.map */

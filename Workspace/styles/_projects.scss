@@ -1,20 +1,53 @@
 #projects {
+  background: $projectsBackground;
+  height: 100vh;
+  padding: 6vh 0;
   display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-  margin: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  color: $textColour;
 
-  .project-tile {
-    background-color: $welcomeBackgroundOne;
-    width: 30rem;
-    height: auto;
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: $projectH2FontSize;
+  }
 
-    a {
-      text-decoration: none;
-      color: white;
-      img {
-        width: 100%;
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+
+    .project-tile {
+      background-color: $welcomeBackgroundOne;
+      width: 40rem;
+      height: auto;
+      margin: 2vh;
+
+      a {
+        text-decoration: none;
+        color: $textColour;
+        img {
+          width: 100%;
+        }
+        h3 {
+          font-size: $navbarFontSize;
+          font-weight: 100;
+          text-align: center;
+        }
       }
     }
+  }
+
+  #show-all {
+    padding: 0 1vw;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    color: $textColour;
+    text-decoration: none;
+    font-size: $welcomeH1FontSize;
+    background-color: $welcomeBackgroundOne;
   }
 }
