@@ -1,2 +1,28 @@
 #contact {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $textColour;
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      img {
+        height: $footerIconHeight;
+      }
+
+      a {
+        text-decoration: none;
+        color: $textColour;
+        text-align: center;
+        line-height: 100%;
+        font-size: $footerIconHeight;
+      }
+    }
+  }
 }

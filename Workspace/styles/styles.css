@@ -149,6 +149,45 @@ footer {
   background-color: #3a3d40;
 }
 
+#contact {
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #f0f0f0;
+}
+
+#contact ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#contact ul li img {
+  height: 1.9rem;
+}
+
+#contact ul li a {
+  text-decoration: none;
+  color: #f0f0f0;
+  text-align: center;
+  line-height: 100%;
+  font-size: 1.9rem;
+}
+
 #disclaimer {
   width: 100%;
   border-top: solid #be3144 0.5vh;
