@@ -176,6 +176,16 @@ footer {
       flex-wrap: wrap;
 }
 
+#contact ul li {
+  margin-left: 1.8vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 #contact ul li img {
   height: 1.9rem;
 }

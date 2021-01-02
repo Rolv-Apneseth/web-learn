@@ -12,6 +12,10 @@
     flex-wrap: wrap;
 
     li {
+      margin-left: 1.8vw;
+      display: flex;
+      align-items: center;
+
       img {
         height: $footerIconHeight;
       }
