@@ -148,4 +148,9 @@ footer {
   font-size: 2rem;
   background-color: #3a3d40;
 }
+
+#disclaimer {
+  width: 100%;
+  border-top: solid #be3144 0.5vh;
+}
 /*# sourceMappingURL=styles.css.map */
