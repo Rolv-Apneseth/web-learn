@@ -40,13 +40,13 @@ body {
 
 #navbar ul li a {
   text-decoration: none;
-  color: white;
+  color: #f0f0f0;
   font-size: 1.4rem;
 }
 
 #welcome-section {
   height: 100vh;
-  color: white;
+  color: #f0f0f0;
   background: linear-gradient(70deg, #3a3d40 0%, #181719 100%);
   text-align: center;
   display: -webkit-box;
@@ -71,5 +71,30 @@ body {
   color: #be3144;
   font-style: italic;
   font-weight: 100;
+}
+
+#projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+}
+
+#projects .project-tile {
+  background-color: #3a3d40;
+  width: 30rem;
+  height: auto;
+}
+
+#projects .project-tile a {
+  text-decoration: none;
+  color: white;
+}
+
+#projects .project-tile a img {
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */

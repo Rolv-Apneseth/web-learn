@@ -1,4 +1,6 @@
 // Variables
+$textColour: #f0f0f0;
+
 $navbarHeight: 7vh;
 $navbarBackground: #be3144;
 $navbarFontSize: 1.4rem;
@@ -22,3 +24,4 @@ body {
 // Imports
 @import "navbar";
 @import "welcome";
+@import "projects";
