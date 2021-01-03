@@ -8,9 +8,13 @@
   color: $textColour;
 
   h2 {
+    width: fit-content;
+    padding: 0.25vh 0.5vh;
+    margin: 0 auto;
     text-align: center;
-    text-decoration: underline;
+    // text-decoration: underline;
     font-size: $projectH2FontSize;
+    border-bottom: 0.25vh solid $textColour;
   }
 
   div {

@@ -95,9 +95,14 @@ footer {
 }
 
 #projects h2 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.25vh 0.5vh;
+  margin: 0 auto;
   text-align: center;
-  text-decoration: underline;
   font-size: 2.6rem;
+  border-bottom: 0.25vh solid #f0f0f0;
 }
 
 #projects div {
