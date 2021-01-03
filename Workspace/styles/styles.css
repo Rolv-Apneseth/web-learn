@@ -51,6 +51,7 @@ footer {
 #welcome-section {
   height: 100vh;
   color: #f0f0f0;
+  padding: 7vh 0;
   background: linear-gradient(70deg, #3a3d40 0%, #181719 100%);
   text-align: center;
   display: -webkit-box;
@@ -80,7 +81,7 @@ footer {
 #projects {
   background: #45567d;
   min-height: 100vh;
-  padding: 6vh 0;
+  padding: 7vh 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,6 +171,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   color: #f0f0f0;
+  padding: 7vh 0;
 }
 
 #contact h2 {
