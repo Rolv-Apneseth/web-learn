@@ -1,4 +1,29 @@
 #disclaimer {
-  width: 100%;
+  min-height: 20vh;
+  width: 100vw;
   border-top: solid $navbarBackground 0.5vh;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  color: $textColour;
+  font-size: $navbarFontSize;
+
+  #disclaimer-p {
+    margin: 2vh;
+  }
+
+  #copyright-p {
+    margin: 2vh;
+
+    img {
+      height: $navbarFontSize;
+      margin-right: 0.1vw;
+    }
+
+    a {
+      color: $textColour;
+    }
+  }
 }
