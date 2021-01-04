@@ -1,0 +1,14 @@
+.hover-code {
+  color: $welcomeBackgroundOne;
+  font-size: calc(#{$navbarFontSize} * 0.7);
+  height: fit-content;
+  margin: 0 0.1vw;
+}
+
+.project-tile:hover .hover-code {
+  color: $projectHoverTextColour;
+}
+
+#show-all:hover .hover-code {
+  color: $projectHoverTextColour;
+}

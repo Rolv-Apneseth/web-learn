@@ -12,6 +12,7 @@ $welcomeH1FontSize: 2rem;
 
 $projectsBackground: #45567d;
 $projectH2FontSize: 2.6rem;
+$projectHoverTextColour: #ff7f50;
 
 $footerBackground: #303841;
 $footerIconHeight: 1.9rem;
@@ -37,3 +38,4 @@ footer {
 @import "projects";
 @import "contact";
 @import "disclaimer";
+@import "hover";

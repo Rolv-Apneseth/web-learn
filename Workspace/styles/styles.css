@@ -135,11 +135,20 @@ footer {
   width: 100%;
 }
 
-#projects div .project-tile a h3 {
+#projects div .project-tile a .project-name {
   font-size: 1.4rem;
   font-weight: 100;
   text-align: center;
-  padding: 1vh 0;
+  padding: 1.25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #projects #show-all {
@@ -153,6 +162,15 @@ footer {
   text-decoration: none;
   font-size: 2rem;
   background-color: #3a3d40;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #contact {
@@ -252,5 +270,22 @@ footer {
 
 #disclaimer #copyright-p a {
   color: #f0f0f0;
+}
+
+.hover-code {
+  color: #3a3d40;
+  font-size: calc(1.4rem * 0.7);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 0.1vw;
+}
+
+.project-tile:hover .hover-code {
+  color: #ff7f50;
+}
+
+#show-all:hover .hover-code {
+  color: #ff7f50;
 }
 /*# sourceMappingURL=styles.css.map */
