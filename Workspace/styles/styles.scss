@@ -9,6 +9,8 @@ $welcomeBackgroundOne: #3a3d40;
 $welcomeBackgroundTwo: #181719;
 $welcomeH2FontSize: 3.5rem;
 $welcomeH1FontSize: 2rem;
+$welcomeReducedH2FontSize: 3.2rem;
+$welcomeReducedH1FontSize: 1.7rem;
 
 $projectsBackground: #45567d;
 $projectH2FontSize: 2.6rem;
@@ -63,6 +65,21 @@ footer {
   #navbar {
     ul {
       width: 100%;
+    }
+  }
+
+  #welcome-section {
+    h2 {
+      font-size: $welcomeReducedH2FontSize;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: $welcomeReducedH1FontSize;
+      padding-top: 3vh;
+      width: 90%;
+      margin: 0 auto;
     }
   }
 }

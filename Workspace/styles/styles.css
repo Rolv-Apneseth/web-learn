@@ -311,5 +311,16 @@ footer {
   #navbar ul {
     width: 100%;
   }
+  #welcome-section h2 {
+    font-size: 3.2rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  #welcome-section h1 {
+    font-size: 1.7rem;
+    padding-top: 3vh;
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
