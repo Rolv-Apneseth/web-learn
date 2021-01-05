@@ -29,7 +29,7 @@ footer {
 }
 
 #navbar ul {
-  width: 20%;
+  width: 25%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -287,5 +287,29 @@ footer {
 
 #show-all:hover .hover-code {
   color: #ff7f50;
+}
+
+@media only screen and (max-width: 1650px) {
+  #navbar ul {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #navbar {
+    height: calc(7vh * 1.5);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #navbar ul {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar ul {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

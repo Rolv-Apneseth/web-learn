@@ -39,3 +39,30 @@ footer {
 @import "contact";
 @import "disclaimer";
 @import "hover";
+
+// Responsiveness
+@media only screen and (max-width: 1650px) {
+  #navbar {
+    ul {
+      width: 40%;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #navbar {
+    height: calc(#{$navbarHeight} * 1.5);
+    justify-content: center;
+    ul {
+      width: 60%;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar {
+    ul {
+      width: 100%;
+    }
+  }
+}
