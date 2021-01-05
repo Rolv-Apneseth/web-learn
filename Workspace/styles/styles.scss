@@ -15,6 +15,7 @@ $welcomeReducedH1FontSize: 1.7rem;
 $projectsBackground: #45567d;
 $projectH2FontSize: 2.6rem;
 $projectHoverTextColour: #ff7f50;
+$projectResponsiveH2: 5vw;
 
 $footerBackground: #303841;
 $footerIconHeight: 1.9rem;
@@ -62,7 +63,7 @@ footer {
 
   #projects {
     h2 {
-      font-size: calc(#{$projectH2FontSize - 0.5rem});
+      font-size: $projectResponsiveH2;
     }
 
     #show-all {
@@ -90,6 +91,15 @@ footer {
       padding-top: 3vh;
       width: 90%;
       margin: 0 auto;
+    }
+  }
+
+  #projects {
+    h2 {
+      font-size: $welcomeReducedH1FontSize;
+      text-decoration: underline;
+      line-height: $welcomeH1FontSize;
+      border: none;
     }
   }
 }

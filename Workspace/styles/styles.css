@@ -306,7 +306,7 @@ footer {
     width: 60%;
   }
   #projects h2 {
-    font-size: calc(2.1rem);
+    font-size: 5vw;
   }
   #projects #show-all {
     font-size: 1.7rem;
@@ -327,6 +327,12 @@ footer {
     padding-top: 3vh;
     width: 90%;
     margin: 0 auto;
+  }
+  #projects h2 {
+    font-size: 1.7rem;
+    text-decoration: underline;
+    line-height: 2rem;
+    border: none;
   }
 }
 /*# sourceMappingURL=styles.css.map */
