@@ -66,6 +66,14 @@ footer {
       font-size: $projectResponsiveH2;
     }
 
+    div {
+      width: 80%;
+
+      .project-tile {
+        width: 100%;
+      }
+    }
+
     #show-all {
       font-size: $welcomeReducedH1FontSize;
     }

@@ -308,6 +308,12 @@ footer {
   #projects h2 {
     font-size: 5vw;
   }
+  #projects div {
+    width: 80%;
+  }
+  #projects div .project-tile {
+    width: 100%;
+  }
   #projects #show-all {
     font-size: 1.7rem;
   }
