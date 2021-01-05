@@ -59,6 +59,16 @@ footer {
       width: 60%;
     }
   }
+
+  #projects {
+    h2 {
+      font-size: calc(#{$projectH2FontSize - 0.5rem});
+    }
+
+    #show-all {
+      font-size: $welcomeReducedH1FontSize;
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {
