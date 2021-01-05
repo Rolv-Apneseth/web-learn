@@ -194,6 +194,7 @@ footer {
 
 #contact h2 {
   font-size: 3.5rem;
+  text-align: center;
 }
 
 #contact p {
@@ -211,6 +212,9 @@ footer {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 2.8vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 #contact ul li {
@@ -339,6 +343,28 @@ footer {
     text-decoration: underline;
     line-height: 2rem;
     border: none;
+  }
+  #projects #show-all {
+    font-size: 1.4rem;
+  }
+  #contact h2 {
+    font-size: 1.7rem;
+  }
+  #contact p {
+    font-size: calc(1.4rem - 0.3rem);
+  }
+  #contact ul {
+    width: 50%;
+    margin: 3vh auto;
+  }
+  #contact ul li {
+    margin: 1.5vh;
+  }
+  #contact ul li img {
+    height: 1.6rem;
+  }
+  #contact ul li a {
+    font-size: 1.6rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */

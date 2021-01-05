@@ -19,6 +19,7 @@ $projectResponsiveH2: 5vw;
 
 $footerBackground: #303841;
 $footerIconHeight: 1.9rem;
+$footerReducedIconHeight: 1.6rem;
 
 // Base styling
 * {
@@ -108,6 +109,37 @@ footer {
       text-decoration: underline;
       line-height: $welcomeH1FontSize;
       border: none;
+    }
+
+    #show-all {
+      font-size: $navbarFontSize;
+    }
+  }
+
+  #contact {
+    h2 {
+      font-size: $welcomeReducedH1FontSize;
+    }
+
+    p {
+      font-size: calc(#{$navbarFontSize} - 0.3rem);
+    }
+
+    ul {
+      width: 50%;
+      margin: 3vh auto;
+
+      li {
+        margin: 1.5vh;
+
+        img {
+          height: $footerReducedIconHeight;
+        }
+
+        a {
+          font-size: $footerReducedIconHeight;
+        }
+      }
     }
   }
 }
