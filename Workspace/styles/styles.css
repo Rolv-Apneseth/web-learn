@@ -117,7 +117,7 @@ footer {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -313,9 +313,6 @@ footer {
   }
   #projects h2 {
     font-size: 5vw;
-  }
-  #projects div {
-    width: 80%;
   }
   #projects div .project-tile {
     width: 100%;
