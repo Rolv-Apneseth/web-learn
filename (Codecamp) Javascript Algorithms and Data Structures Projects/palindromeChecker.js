@@ -1,5 +1,5 @@
 function processString(str) {
-  return str.replace(/[^a-zA-z0-9]|[_]/g, "").toLowerCase();
+  return str.replace(/\W|[_]/g, "").toLowerCase();
 }
 
 // Slower version
@@ -44,3 +44,7 @@ console.assert(palindrome("_eye") == true, failString);
 console.assert(palindrome("almostomla") == false, failString);
 console.assert(palindrome("My age is 0, 0 si ega ym.") == true, failString);
 console.assert(palindrome("five|_/|four") == false, failString);
+
+// When run on leetcode problem https://leetcode.com/problems/valid-palindrome/:
+// Runtime: 88 ms, faster than 92.50% of JavaScript online submissions for Valid Palindrome.
+// Memory Usage: 40.3 MB, less than 98.61% of JavaScript online submissions for Valid Palindrome.
