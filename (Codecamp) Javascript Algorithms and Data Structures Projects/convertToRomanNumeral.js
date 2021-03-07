@@ -1,60 +1,58 @@
-const TRANSLATION = {
-  3000: "MMM",
-  2000: "MM",
-  1000: "M",
-  900: "CM",
-  800: "DCCC",
-  700: "DCC",
-  600: "DC",
-  500: "D",
-  400: "CD",
-  300: "CCC",
-  200: "CC",
-  100: "C",
-  90: "XC",
-  80: "LXXX",
-  70: "LXX",
-  60: "LX",
-  50: "L",
-  40: "XL",
-  30: "XXX",
-  20: "XX",
-  10: "X",
-  9: "IX",
-  8: "VIII",
-  7: "VII",
-  6: "VI",
-  5: "V",
-  4: "IV",
-  3: "III",
-  2: "II",
-  1: "I",
-  0: "",
-};
+const TRANSLATIONS = [
+  {
+    9: "IX",
+    8: "VIII",
+    7: "VII",
+    6: "VI",
+    5: "V",
+    4: "IV",
+    3: "III",
+    2: "II",
+    1: "I",
+    0: "",
+  },
+  {
+    9: "XC",
+    8: "LXXX",
+    7: "LXX",
+    6: "LX",
+    5: "L",
+    4: "XL",
+    3: "XXX",
+    2: "XX",
+    1: "X",
+  },
+  {
+    9: "CM",
+    8: "DCCC",
+    7: "DCC",
+    6: "DC",
+    5: "D",
+    4: "CD",
+    3: "CCC",
+    2: "CC",
+    1: "C",
+  },
+  {
+    3: "MMM",
+    2: "MM",
+    1: "M",
+  },
+];
 
 function splitToDigits(num) {
   return num.toString().split("").reverse();
 }
 
-function digitsToNumbers(split) {
-  let newSplit = [];
-
-  for (let i in split) {
-    newSplit.push((parseInt(split[i]) * Math.pow(10, i)).toString());
-  }
-
-  return newSplit.reverse();
-}
-
 function convertToRoman(num) {
-  let roman = "";
-  let numbers = digitsToNumbers(splitToDigits(num));
+  let roman = [];
+  let numbers = splitToDigits(num);
 
   for (let i in numbers) {
-    roman += TRANSLATION[numbers[i]];
+    roman.unshift(TRANSLATIONS[i][numbers[i]]);
   }
 
-  return roman;
+  return roman.join("");
 }
 
 // TESTS
@@ -74,3 +72,7 @@ console.assert(convertToRoman(1004) == "MIV", failMessage);
 console.assert(convertToRoman(1023) == "MXXIII", failMessage);
 console.assert(convertToRoman(2014) == "MMXIV", failMessage);
 console.assert(convertToRoman(3999) == "MMMCMXCIX", failMessage);
+
+// When run on leetcode problem:
+// Runtime: 156 ms, faster than 84.53% of JavaScript online submissions for Integer to Roman.
+// Memory Usage: 45.1 MB, less than 71.75% of JavaScript online submissions for Integer to Roman.
